@@ -1,0 +1,25 @@
+GET http://127.0.0.1:8000/api/actors
+
+###
+
+POST http://127.0.0.1:8000/api/actors
+Content-Type: application/json
+
+{
+    "title": "Hujan",
+    "name": "Milea"
+}
+
+###
+
+PUT http://127.0.0.1:8000/api/actors/12
+Content-Type: application/json
+
+{
+    "title": "Naruto",
+    "name": "Naruto"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/api/actors/12
